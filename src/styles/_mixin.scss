@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+@mixin border-elmt {
+    margin: 1rem;
+    box-shadow: $box-shadow-elmt;
+    border-radius: $border-radius-elmt;
+}
+
+@mixin bg-header-footer {
+    background-color: $ter-clr;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px #0000002e;
+}

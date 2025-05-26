@@ -1,7 +1,9 @@
+import IndexRouter from "./router/IndexRouter"
+
 const App = () => {
   return (
     <>
-      Yeeeeee Haw
+      <IndexRouter />
     </>
   )
 }

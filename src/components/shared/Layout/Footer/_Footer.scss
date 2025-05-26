@@ -1,0 +1,26 @@
+@use '@scss/mixin' as *;
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    @include bg-header-footer;
+
+    &-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    &-content {
+        padding: 0.5rem 1rem;
+        opacity: 0.5;
+    }
+}
+
+@media(max-width: 800px) {
+    .footer {
+        margin-top: 40px;
+    }
+}
