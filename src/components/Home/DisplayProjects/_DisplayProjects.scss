@@ -1,0 +1,19 @@
+.projects {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    
+    &-list {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 2em;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1090px) {
+    .projects-list {
+        justify-content: space-around;
+    }
+}
